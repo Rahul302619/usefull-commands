@@ -1,0 +1,15 @@
+1)Github & DockerHub->
+user- rahul302619302@gmail.com
+pass- S**@*****9
+
+2)Jenkins->
+Downlaod jenkins as war for easy to run
+run the war file using java -jdk jenkins.war
+after that key will get generated for intial setup at the location -> C:\Users\User\.jenkins\secrets\initialAdminPassword
+after setup -> user and password -> rahul
+
+3)For runing docker desktop on window you should have wsl enable and install on you machine, If not follow the below steps-
+for checking wsl version -> wsl -l -v
+for getting all the linux flavor online -> wsl --list --online
+for installing particular flavor -> wsl --install -d Ubuntu
+user and password -> rahul

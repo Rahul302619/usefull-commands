@@ -1,0 +1,16 @@
+NOTE - For using docker command you need to install docker desktop for window and once it get started than only you can pull r run images from dockerhub.
+
+Docker usefull commands-
+1)docker pull <image_name>
+2)docker run --name nginx1 -d -p container_port:application_port <image_name>:<version>
+	-d -> run in detached mode
+	-p -> for adding container port and binding container port to application port
+	--name -> for providing the name to the container
+3)docker start <container_id> -> for starting stoped or crashed container
+4)docker stop <container_id> -> for stoping running container
+5)docker images -> for getting all the local images
+6)docker ps -a -> to get all the running or stopped containers
+7)docker logs <container_id> -> for container logs
+8)docker exec -it <container_id> sh -> for login into container and for comming out of the container use exit command
+9)docker build -t image-name .  -> to build the image from docker file
+10)docker rm <container_id> -> for removing or deleting the container

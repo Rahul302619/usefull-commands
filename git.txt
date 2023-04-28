@@ -1,0 +1,8 @@
+Intialize git project on local         -> git init
+For adding the file on local           -> git add README.md
+For adding all file on local           -> git add .
+For commiting the file on local repo   -> git commit -m "this sample project to deploy application using jenkins pipeline"
+For creating the branch on local repo  -> git branch -M main
+For linking remot repo with local repo -> git remote add origin https://github.com/Rahul302619/spring-boot-jenkins-sample.git
+For takeing the latest changes from main branch -> git pull origin main --allow-unrelated-histories
+For pusing the change on remote repo   -> git push -u origin main
